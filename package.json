@@ -1,0 +1,22 @@
+{
+  "name": "umpirebot",
+  "version": "1.0.0",
+  "description": "Groupme bot designed for strikes.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+  },
+  "engines": {
+    "node": "5.4.1"
+  },
+  "repository": "https://github.com/abertrand13/umpirebot",
+  "author": "Alex Bertrand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "extend": "^3.0.0",
+    "pg": "^4.4.4",
+    "request": "^2.69.0",
+  }
+}
