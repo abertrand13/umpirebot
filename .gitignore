@@ -1,0 +1,11 @@
+
+# ignore node modules
+node_modules/
+
+# ignore swp files
+**/*.swp
+
+# heroku suggestions
+npm-debug.log
+.DS_Store
+/*.env
