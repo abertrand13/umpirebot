@@ -22,7 +22,7 @@ app.get("/", function(req, res) {
 app.post("/groupme", function(req, res) {
     if(req.body.group_id == "28104278") {
         botKey = process.env.TEST_BOT_KEY;
-    } else if(req.body.group_id == "insertprodhere") {
+    } else if(req.body.group_id == "15793795") {
         botKey = process.env.PROD_BOT_KEY;
     }
 
